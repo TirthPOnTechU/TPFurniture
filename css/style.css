@@ -61,7 +61,7 @@ body{
     border-radius: 30%;
 }
 .hero{
-    background: url(/images/banner_bg_2.jpg);
+    background: url(images/banner_bg_2.jpg);
     background-attachment: fixed;
     min-height: calc(100vh - 60px);
     background-repeat: no-repeat;
