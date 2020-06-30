@@ -18,7 +18,7 @@
  class Products{
      async getProducts(){
          try {
-            let data= await fetch('/data/products.json');
+            let data= await fetch('data/products.json');
             data= await data.json();
             data=data.items;
             let finalData=data.map((item)=>{
